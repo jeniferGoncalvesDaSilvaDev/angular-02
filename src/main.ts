@@ -7,6 +7,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
   selector: 'my-app',
   standalone: true,
   imports: [CommonModule],
+  styleUrls:['global_styles.css'],
   template: `
     <h1>Hello from {{name}}!</h1>
     <a target="_blank" href="https://angular.io/start">
